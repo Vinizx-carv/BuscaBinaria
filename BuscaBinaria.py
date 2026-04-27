@@ -5,6 +5,8 @@ def buscaBinaria(vetor, alvo):
         fim = len(vetor) - 1
 
         while (fim >= inicio):
+            
+            #Fica na variavel "meio" o valor inteiro da divisão
             meio = (inicio + fim) // 2
 
             if vetor[meio] == alvo:
